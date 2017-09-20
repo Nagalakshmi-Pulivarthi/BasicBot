@@ -1,0 +1,1 @@
+worker: python basicbot1.py
