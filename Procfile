@@ -1,1 +1,1 @@
-worker: python basicbot1.py
+worker: python QuoteBot_Solved.py

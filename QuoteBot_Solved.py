@@ -4,12 +4,10 @@ import time
 import json
 
 # Twitter API Keys
-consumer_key = "NDia3lgb7QR258CMpk5hWh1Ff"
-consumer_secret = "5gXd49SjH3fihwoBLNCp6KYybCwOQSPvnWBnOwTRiu7jiIrInO"
-access_token = "907734478159826946-0xIx20UVDhVxdEtWuyzvMX9az0rg2V5"
-access_token_secret = "sNW0efMBw7QsqcFCJVbH0r5iZ7ucd1ovcP7QHhoAO1CRC"
-
-
+consumer_key = "Ed4RNulN1lp7AbOooHa9STCoU"
+consumer_secret = "P7cUJlmJZq0VaCY0Jg7COliwQqzK0qYEyUF9Y0idx4ujb3ZlW5"
+access_token = "839621358724198402-dzdOsx2WWHrSuBwyNUiqSEnTivHozAZ"
+access_token_secret = "dCZ80uNRbFDjxdU2EckmNiSckdoATach6Q8zb7YYYE5ER"
 
 # Quotes to Tweet
 quote_list = [
@@ -22,7 +20,7 @@ quote_list = [
 
 # Create function for tweeting
 def QuoteItUp(quote_num):
-   
+
     # Twitter credentials
     auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
     auth.set_access_token(access_token, access_token_secret)
